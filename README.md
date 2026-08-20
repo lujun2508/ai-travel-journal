@@ -1,6 +1,8 @@
-# 一起旅行 (Travel-Companion)
+# ai-travel-journal (一起旅行 / Travel-Companion)
 
 > 旅行途中, 用户发 1 张照片, AI 自动落盘 + 追问 + EXIF/GPS + POI 匹配 + 交叉验证 + AA 分账 + 预算预警 + HTML/PDF 汇总
+
+**🔗 GitHub**: https://github.com/lujun2508/ai-travel-journal
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10+-blue.svg)](requirements.txt)
