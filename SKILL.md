@@ -1,5 +1,5 @@
 ---
-name: 一起旅行 (Travel-Companion)
+name: ai-travel-journal (一起旅行 / Travel-Companion)
 description: |
   旅行途中, 用户发 1 张照片, AI 主动追问 + 识别店招/菜品/收据/打卡,
   自动落盘到 照片/_inbox/ 编号防混淆, 按 EXIF/收据时间戳归 D0-D9 日程,
@@ -8,6 +8,7 @@ description: |
   整合到 journal.json + 美食排行榜 + 推荐指南 + 行程规划,
   生成时间轴 + 多人 AA 智能分账 + 实时预算预警,
   最终输出 HTML + PDF + Markdown + JSON 多格式汇总 (本地/本地+云端/仅云端/私有目录 4 种保存方式)
+  GitHub: https://github.com/lujun2508/ai-travel-journal
 when_to_use: |
   用户:
     - "出发旅行" / "我们要去 X 天" / "今天开始"
