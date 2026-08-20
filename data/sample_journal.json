@@ -1,0 +1,74 @@
+{
+ "trip": "示例 · 三日城市漫步美食游",
+ "start": "2026-05-01",
+ "end": "2026-05-03",
+ "owner": "示例用户 (请替换为你的信息)",
+ "url": "/secret/travel/",
+ "privacy": "private (示例数据, 全部虚构)",
+ "created": "2026-05-01",
+ "days": [
+  {
+   "key": "D0",
+   "date": "2026-05-01",
+   "title": "Day 0 · 出发地",
+   "photos": [],
+   "waypoints": [
+    {
+     "time": "08:00",
+     "lat": 39.9087,
+     "lon": 116.3974,
+     "place": "示例地点 A (家/起点)",
+     "address": "示例城市 · 示例区 · 示例路 1 号",
+     "caption": "出发集合, 全部为虚构数据",
+     "photo": null,
+     "note": "示例 waypoint, 实际使用请删掉",
+     "name": "示例 A 出发"
+    },
+    {
+     "time": "12:30",
+     "lat": 39.9100,
+     "lon": 116.4000,
+     "place": "示例餐馆 B (虚构店名)",
+     "address": "示例城市 · 示例区 · 示例美食街 88 号",
+     "caption": "虚构午餐, 4 人桌, 实际使用请删掉",
+     "photo": null,
+     "gps_source": "user_text_estimate",
+     "note": "示例 POI, 实际使用请删掉",
+     "name": "示例 B 餐馆"
+    }
+   ]
+  },
+  {
+   "key": "D1",
+   "date": "2026-05-02",
+   "title": "Day 1 · 城市漫步",
+   "photos": [],
+   "waypoints": [
+    {
+     "time": "09:30",
+     "lat": 39.9150,
+     "lon": 116.4100,
+     "place": "示例景点 C (虚构景点名)",
+     "address": "示例城市 · 示例区 · 公园路 1 号",
+     "caption": "虚构景点打卡, 全部为示例",
+     "photo": null,
+     "gps_source": "user_text_estimate",
+     "note": "示例 POI, 实际使用请删掉",
+     "name": "示例 C 景点"
+    },
+    {
+     "time": "18:00",
+     "lat": 39.9200,
+     "lon": 116.4200,
+     "place": "示例酒店 D (虚构酒店名)",
+     "address": "示例城市 · 示例区 · 酒店路 8 号",
+     "caption": "虚构酒店入住, 实际使用请删掉",
+     "photo": null,
+     "gps_source": "user_text_estimate",
+     "note": "示例 POI, 实际使用请删掉",
+     "name": "示例 D 酒店"
+    }
+   ]
+  }
+ ]
+}

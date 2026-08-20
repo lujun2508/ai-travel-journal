@@ -1,0 +1,62 @@
+{
+ "matches": [
+  {
+   "waypoint_id": "D0_example_A",
+   "place_name": "示例 A 出发",
+   "exif_gps": [
+    116.3974,
+    39.9087
+   ],
+   "result": {
+    "status": "mock",
+    "poi_match": {
+     "poi_id": "MOCK_D0_A",
+     "name": "示例地点 A (家/起点) - 全虚构",
+     "address": "示例城市 · 示例区 · 示例路 1 号",
+     "location": [
+      39.9087,
+      116.3974
+     ],
+     "distance_to_exif_m": 0.0,
+     "name_similarity": 1.0,
+     "category": "其他",
+     "rating": 0,
+     "business_hours": "未知",
+     "score": 3.0,
+     "confidence": 1.0,
+     "_mock": true,
+     "_note": "全虚构数据, 实际使用请配置 AMAP_KEY 后跑 _amap_geo_match.py"
+    }
+   }
+  },
+  {
+   "waypoint_id": "D0_example_B",
+   "place_name": "示例 B 餐馆",
+   "exif_gps": [
+    116.4000,
+    39.9100
+   ],
+   "result": {
+    "status": "mock",
+    "poi_match": {
+     "poi_id": "MOCK_D0_B",
+     "name": "示例餐馆 B (虚构店名) - 全虚构",
+     "address": "示例城市 · 示例区 · 示例美食街 88 号",
+     "location": [
+      39.9100,
+      116.4000
+     ],
+     "distance_to_exif_m": 5.2,
+     "name_similarity": 0.85,
+     "category": "餐饮",
+     "rating": 4.5,
+     "business_hours": "10:00-22:00",
+     "score": 8.5,
+     "confidence": 0.92,
+     "_mock": true,
+     "_note": "全虚构数据, 实际使用请配置 AMAP_KEY 后跑 _amap_geo_match.py"
+    }
+   }
+  }
+ ]
+}

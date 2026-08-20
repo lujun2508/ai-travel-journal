@@ -1,0 +1,25 @@
+{
+ "photos": [
+  {
+   "id": "D0_001",
+   "received_at": "2026-05-01T08:00:00+08:00",
+   "filename": "2026-05-01_001_sample_signage.jpg",
+   "original_name": "sample_signage.jpg",
+   "path": "photos/_inbox/2026-05-01_001_sample_signage.jpg",
+   "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+   "size_bytes": 524288,
+   "exif": {
+    "datetime": "2026-05-01T07:55:00",
+    "gps": [
+     116.3974,
+     39.9087
+    ]
+   },
+   "day": "D0",
+   "stage": "已落盘",
+   "category": "shop_signage",
+   "smart_category": "restaurant",
+   "_note": "全虚构示例数据, 实际使用请跑 skills/_inbox.py receive_photo() 接收真实照片"
+  }
+ ]
+}

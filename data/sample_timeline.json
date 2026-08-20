@@ -1,0 +1,57 @@
+{
+ "trip": "示例 · 三日城市漫步美食游",
+ "generated_at": "2026-05-03T18:00:00",
+ "events": [
+  {
+   "id": "D0_001",
+   "time": "2026-05-01T08:00:00",
+   "day": "D0",
+   "type": "departure",
+   "place": "示例地点 A (家/起点)",
+   "caption": "示例出发",
+   "source": "user_text_estimate",
+   "_note": "全虚构"
+  },
+  {
+   "id": "D0_002",
+   "time": "2026-05-01T12:30:00",
+   "day": "D0",
+   "type": "meal",
+   "place": "示例餐馆 B (虚构店名)",
+   "amount": 120.0,
+   "split_type": "AA",
+   "source": "user_text_estimate",
+   "_note": "全虚构"
+  },
+  {
+   "id": "D1_001",
+   "time": "2026-05-02T09:30:00",
+   "day": "D1",
+   "type": "landmark",
+   "place": "示例景点 C (虚构景点名)",
+   "source": "user_text_estimate",
+   "_note": "全虚构"
+  },
+  {
+   "id": "D1_002",
+   "time": "2026-05-02T18:00:00",
+   "day": "D1",
+   "type": "hotel",
+   "place": "示例酒店 D (虚构酒店名)",
+   "amount": 320.0,
+   "source": "user_text_estimate",
+   "_note": "全虚构"
+  }
+ ],
+ "stats": {
+  "total_days": 2,
+  "total_events": 4,
+  "total_amount": 440.0,
+  "by_type": {
+   "departure": 1,
+   "meal": 1,
+   "landmark": 1,
+   "hotel": 1
+  }
+ }
+}

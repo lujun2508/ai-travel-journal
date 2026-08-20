@@ -1,0 +1,131 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===== Virtual Env =====
+venv/
+ENV/
+env/
+.venv/
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ===== 测试 / Coverage =====
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache
+coverage.xml
+*.cover
+.hypothesis/
+
+# ===== 环境变量 / 密钥 (CRITICAL: 不要上传任何 .env 文件) =====
+.env
+.env.local
+.env.*.local
+.env.production
+*.key
+*.secret
+secrets/
+
+# ===== 真实 PII 数据 (CRITICAL: 不要上传) =====
+# 真实旅行数据含家庭住址/GPS轨迹/小孩面部照片/家庭消费
+# 上传请用 sample_* 假数据
+data/journal.json
+data/poi_matches.json
+data/timeline.json
+data/budget.json
+data/分账.json
+data/_auto_trigger_state.json
+data/exif_cache/
+
+# 真实消费表 (含店名+金额+小孩免票)
+tables/expenses-table.md
+
+# inbox.json (路径含中文 "照片\_inbox", 跟框架英文 photos/_inbox 不符)
+data/inbox.json
+
+
+
+# ===== 真实照片 (含小孩面部) =====
+photos/
+!photos/.gitkeep
+!photos/README.md
+
+# ===== 上传配置示例 (允许上传) =====
+# amap_api_key.example.md 是占位符文件, amap_api_key.md 才是真 key (排除)
+amap_api_key.md
+高德API-Key.md
+
+# ===== 早期 demo / 临时脚本 (跟主体 v3.7.2 不配套) =====
+skills/_make_samples.py
+archive/_make_samples.py
+**/_make_samples.py
+
+
+# ===== 站点输出 (HTML 汇总/PDF) =====
+output/
+output_*/
+exports/
+dist/
+site/
+
+# ===== 临时 / 调试 =====
+tmp/
+*.tmp
+*.bak
+*.log
+*.pid
+
+# ===== 大文件 / 媒体 =====
+*.mp4
+*.mov
+*.avi
+*.zip
+*.tar.gz
+*.7z
+*.pdf
+!docs/**/*.pdf
+!README.md
+
+# ===== OS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+ehthumbs.db
+Desktop.ini
+
+# ===== 项目特定 =====
+# 站点部署的临时文件
+_deploy/
+_deploy_*.py
+_final_check.txt
+*_sq.jpg
+*_sq.png
