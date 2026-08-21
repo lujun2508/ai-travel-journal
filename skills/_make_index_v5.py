@@ -18,8 +18,10 @@ from pathlib import Path
 from collections import defaultdict
 
 PHOTO_BASE = 'photos/'  # 同级路径 (HTML在travel目录下,photos也在travel目录下,直接相对)
-KEY = 'e003da793554a6c17ae871efcab0b35c'
-SEC = 'daff8eb0b4f76a96f1abde89cd696bc6'
+# ⚠️ 安全: KEY 和 SEC 改为占位符, 实际 key 从 .env 文件读 (见 docs/amap_api_key.example.md)
+# 原来硬编码 'e003da79...' / 'daff8e...' 已脱敏 (8-21, 因为发现 .gitignore 漏了 _make_index_v5.py, 防止 GitHub 公开暴露)
+KEY = 'YOUR_AMAP_KEY_HERE'
+SEC = 'YOUR_AMAP_SECURITY_HERE'
 
 def esc(s):
     return str(s).replace('&','&amp;').replace('<','&lt;').replace('>','&gt;').replace('"','&quot;')
