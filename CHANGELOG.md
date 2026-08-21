@@ -5,7 +5,30 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)，
 版本号遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)。
 
-## [Unreleased] · GitHub 开源准备
+## [Unreleased] · 2026-08-21 · v3.8.0 准备
+
+### Planned (基于 4 个 agent 报告, 8-21 拍板)
+- **P0-1**: 阶段 5.5 跨币种自动换算 (CNY/USD/EUR/THB + EXCHANGE_RATE_API_KEY)
+- **P0-2**: 阶段 8 "自驾均摊" 模式 (油+过路+餐均摊, 车辆归车主)
+- **P0-3**: 阶段 9 场景化预算模板 (自驾/亲子/探险/城市 4 套阈值)
+- **P1-1**: 阶段 1.5 高速服务区 3 类模板 (油+过路+餐)
+- **P1-2**: 阶段 1.5 国外多语种 + VLM 兜底 (英/泰/日/西班牙 + Qwen-VL)
+- **P1-3**: 阶段 2 Google Places 备选 (国外场景自动切换)
+- **P1-4**: 阶段 6 4 大报告模板 (风景/美食/亲子/探险)
+- **P1-5**: 新功能 A 风景文案生成器 (房琪金句模板)
+- **P1-6**: 新功能 B 智能筛选 (VLM 评分 必发/备选/删)
+- **P1-7**: 新功能 F 场景自动识别 (EXIF+时间+GPS 模式选模板)
+
+详见 `ROADMAP.md` (P0/P1/P2/P3 全部 12 建议 + 6 新功能)。
+
+### Added
+- `ROADMAP.md` (4 优先级 + 6 模拟场景 + 时间线 + 借鉴来源)
+
+### Changed
+- SKILL.md frontmatter name 改为 `ai-travel-journal (一起旅行 / Travel-Companion)` (跟仓库名一致)
+- README.md H1 标题加 GitHub URL 大字号
+
+## [Unreleased] · GitHub 开源准备 (8-20)
 
 ### Changed
 - 路径统一: 11 个 Python 脚本内部 `脚本/数据/照片` (中文) → `skills/data/photos` (英文), 跟 SKILL/ 子目录现状一致
